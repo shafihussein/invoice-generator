@@ -1,0 +1,33 @@
+{
+  "name": "invoice-generator",
+  "version": "1.0.0",
+  "description": "generates a simple invoice with QR code",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node scripts/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shafihussein/invoice-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shafihussein/invoice-generator/issues"
+  },
+  "homepage": "https://github.com/shafihussein/invoice-generator#readme",
+  "dependencies": {
+    "@react-email/render": "^2.0.5",
+    "pdfkit": "^0.18.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
