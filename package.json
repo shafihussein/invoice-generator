@@ -20,10 +20,13 @@
   },
   "homepage": "https://github.com/shafihussein/invoice-generator#readme",
   "dependencies": {
+    "@react-email/components": "^1.0.11",
     "@react-email/render": "^2.0.5",
+    "@react-pdf/renderer": "^4.4.0",
     "pdfkit": "^0.18.0",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
     "@types/node": "^25.5.2",
